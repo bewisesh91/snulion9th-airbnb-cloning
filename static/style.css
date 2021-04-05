@@ -1,0 +1,186 @@
+* {
+    font-family: "Nanum Gothic" sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited { 
+    color: black; 
+    text-decoration: none;
+}
+
+
+/* explore 영역 */
+.main-explore {
+    margin-top: 50px;
+}
+
+.main-explore-header {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.main-explore-container {
+    width: 1500px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 20px;
+}
+
+.main-explore-content {
+    width: 320px;
+    height: 72px;
+}
+
+.main-explore-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.main-explore-img {
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+}
+
+.main-explore-texts {
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.main-explore-text1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-explore-text2 {
+    font-size: 16px;
+}
+
+/* live 영역 */
+
+.main-live {
+    margin-top: 50px;
+}
+
+.main-live-header {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.main-live-container-theme {
+    width: 1500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-live-theme-img {
+    width: 340px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.main-live-thme-text {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.main-live-container-host {
+    width: 1420px;
+    margin-top: 50px;
+    background-image: url(/static/images/host.png);
+    background-size: cover;
+    height: 520px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.main-live-host-text1 {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    width: 320px;
+}
+
+.main-live-host-text2 {
+    position:absolute;
+    top: 55%;
+    left: 7%;
+    color: white ;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.main-live-host-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 17px;
+    top: 70%;
+    left: 7%;
+    background-color: white;
+}
+
+.main-live-host-button:hover {
+    cursor:pointer;
+}
+
+
+
+
+/* discover 영역 */
+
+.main-discover {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.main-discover-header {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.main-discover-header-text {
+    margin-top: 7px;
+    font-size: 30px;
+}
+
+.main-discover-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-discover-img {
+    margin-top: 20px;
+    width: 460px;
+    border-radius: 20px;
+}
+
+.main-discover-text1 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.main-discover-text2 {
+    margin-top: 5px;
+    font-size: 15px;
+}
