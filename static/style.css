@@ -5,6 +5,130 @@
   box-sizing: border-box;
 }
 
+/* header 부분 */
+header {
+    background-color: black;
+  }
+  
+  .header-header {
+    color: #a3a3a3;
+    background: #222222;
+    display: flex;
+    justify-content: center;
+    padding: 1.3%;
+    font-size: 12.5px;
+    text-decoration: underline;
+    font-weight: 1000;
+  }
+  
+  a:link {
+    color: #a3a3a3;
+  }
+  
+  a:visited {
+    color: #a3a3a3;
+  }
+  
+  a:hover {
+    color: dark rgb(100, 100, 100);
+  }
+  
+  a:active {
+    color: dark rgb(100, 100, 100);
+  }
+  
+  .header-logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  
+  .header-logo {
+    width: 40%;
+  }
+  
+  .header-nav {
+    width: 35%;
+    display: flex;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+    border: 0px;
+    display: grid;
+    grid-template-columns: 60px 60px 80px;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 56px;
+  }
+  
+  .accom:hover {
+    color: lightgrey;
+  }
+  .leisure:hover {
+    color: lightgrey;
+  }
+  .on-lei:hover {
+    color: lightgrey;
+  }
+  
+  .header-sp-ac {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45px;
+  }
+  
+  .header-picture {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header-message {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  table {
+    align-items: center;
+    border-radius: 40px;
+    padding: 10px 20px 10px 30px;
+  }
+  
+  table,
+  th {
+    border: 0;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    text-align: left;
+  }
+  
+  table,
+  td {
+    border: 0;
+    font-size: 12px;
+    background-color: white;
+    color: grey;
+  }
+  .a {
+    background-color: white;
+    border: 0px;
+  }
+
+
+/* main 부분*/
 main {
   padding-left: 90px;
   padding-right: 90px;
@@ -181,127 +305,8 @@ a:visited {
   font-size: 15px;
 }
 
-header {
-  background-color: black;
-}
 
-.header-header {
-  color: #a3a3a3;
-  background: #222222;
-  display: flex;
-  justify-content: center;
-  padding: 1.3%;
-  font-size: 12.5px;
-  text-decoration: underline;
-  font-weight: 1000;
-}
-
-a:link {
-  color: #a3a3a3;
-}
-
-a:visited {
-  color: #a3a3a3;
-}
-
-a:hover {
-  color: dark rgb(100, 100, 100);
-}
-
-a:active {
-  color: dark rgb(100, 100, 100);
-}
-
-.header-logo {
-  display: flex;
-  justify-content: flex-start;
-}
-
-nav {
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-  padding-left: 90px;
-  padding-right: 90px;
-}
-
-.header-logo {
-  width: 40%;
-}
-
-.header-nav {
-  width: 35%;
-  display: flex;
-  vertical-align: middle;
-  background-color: black;
-  color: white;
-  border: 0px;
-  display: grid;
-  grid-template-columns: 60px 60px 80px;
-  font-size: 14px;
-  cursor: pointer;
-  line-height: 56px;
-}
-
-.accom:hover {
-  color: lightgrey;
-}
-.leisure:hover {
-  color: lightgrey;
-}
-.on-lei:hover {
-  color: lightgrey;
-}
-
-.header-sp-ac {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 45px;
-}
-
-.header-picture {
-  display: flex;
-  justify-content: center;
-}
-
-.header-message {
-  color: white;
-  display: flex;
-  justify-content: center;
-  font-size: 30px;
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
-
-table {
-  align-items: center;
-  border-radius: 40px;
-  padding: 10px 20px 10px 30px;
-}
-
-table,
-th {
-  border: 0;
-  font-size: 12px;
-  background-color: white;
-  color: black;
-  text-align: left;
-}
-
-table,
-td {
-  border: 0;
-  font-size: 12px;
-  background-color: white;
-  color: grey;
-}
-.a {
-  background-color: white;
-  border: 0px;
-}
-
+/* footer 부분 */
 footer {
   background-color: #f7f7f7;
   border-top: 1px solid #dddddd;
