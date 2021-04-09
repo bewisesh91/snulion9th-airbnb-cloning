@@ -1,0 +1,112 @@
+*
+{
+    font-family: "Nanum Gothic" sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #a3a3a3;
+    background:#222222;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.3%;
+  font-size: 12.5px;
+  text-decoration: underline;
+  font-weight: 1000;
+}
+
+
+
+a:link { color: #a3a3a3; }
+
+a:visited { color: #a3a3a3; }
+
+a:hover { color: dark rgb(100, 100, 100); }
+
+a:active { color: dark rgb(100, 100, 100); }
+
+.header-header {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+
+.header-logo{
+    width: 40%;
+}
+
+.header-nav{
+    width: 35%;
+    display: flex;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+    border: 0px;
+    display: grid;
+    grid-template-columns: 60px 60px 80px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.accom:hover {color: lightgrey}
+.leisure:hover {color: lightgrey}
+.on-lei:hover {color: lightgrey}
+
+.header-sp-ac {
+    display: flex;
+    justify-content: center;
+}
+
+.header-picture {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.header-message {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+table{
+    align-items: center;
+    padding: 10px;
+    border-radius:40px;
+}
+
+table,th {
+    border: 0;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+table,td{
+    border: 0;
+    font-size: 12px;
+    background-color: white;
+    color:grey;
+
+}
+.a {
+    background-color: white;
+    border: 0px;
+}
