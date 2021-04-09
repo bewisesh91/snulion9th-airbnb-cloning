@@ -6,89 +6,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> lion_airb&b </title>
-
+    <!--icon 사용 위한 script-->
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
     <!-- css 연결 -->
-    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" type="text/css" href="static/style.css"> 
 </head>
 
 <body>
-    <header class="header-header">
-        <a href="https://www.airbnb.co.kr/resources/hosting-homes?persona=guest">
-        에어비앤비의 코로나19 대응 방안에 대한 최신 정보를 확인하세요.
-        </a>
-    </header>
-    <br>
-    <nav>
-        <span class="header-logo">
-            <a href = "https://www.airbnb.co.kr/">
-                <img class="header-icon" src="static/logo.jpg" width=120px alt="airbnb">
+    <header bgcolor="black">
+        <div class="header-header header-header-div">
+            <a href="https://www.airbnb.co.kr/resources/hosting-homes?persona=guest">
+            에어비앤비의 코로나19 대응 방안에 대한 최신 정보를 확인하세요.
             </a>
-        </span>
-        <span class="header-nav" border="1">
-            <span class="accom" width=100px>숙소</span>
-            <span class="leisure" width=100px>체험</span>
-            <span class="on-lei" width=100px>온라인 체험</span>
-        </span>
+        </div>
+        
+        <br>
+        <nav>
+            <span class="header-logo">
+                <a href = "https://www.airbnb.co.kr/">
+                    <img class="header-icon" src="static/logo.jpg" width=120px alt="airbnb">
+                </a>
+            </span>
+            <span class="header-nav" border="1">
+                <span class="accom" width=100px>숙소</span>
+                <span class="leisure" width=100px>체험</span>
+                <span class="on-lei" width=100px>온라인 체험</span>
+            </span>
 
-        <span class = "right-logo">
-            <img class="right-logo" src="static/right-logo.jpg" width=250px alt="right-logo">
-        </span>
-    </nav>
-    
-    <div class="header-sp-ac">
-        <table border="1">
-            <th width=220px>위치</th>
-            <th width=160px>체크인</th>
-            <th width=160px>체크아웃</th>
-            <th width=160px>인원</th>
-            <th rowspan="2"><img class="header-search" src="static/search.jpg" width=50px alt="search"></th>
-            <tr>
-                <td>
-                    <input type="text" placeholder="어디로 여행가세요?">
+            <span class = "right-logo">
+                <img class="right-logo" src="static/right-logo.jpg" width=250px alt="right-logo">
+            </span>
+        </nav>
+        
+        <div class="header-sp-ac">
+            <table border="1">
+                <th width=220px>위치</th>
+                <th width=160px>체크인</th>
+                <th width=160px>체크아웃</th>
+                <th width=160px>인원</th>
+                <th rowspan="2"><img class="header-search" src="static/search.jpg" width=50px alt="search"></th>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="어디로 여행가세요?">
+                            <style>
+                                input[type=text] {
+                                    border : 0px;
+                                    background-color: white;
+                                }
+                            </style>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="날짜 입력">
+                            <style>
+                                input[type=text] {
+                                    border : 0px;
+                                    background-color: white;
+                                }
+                            </style>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="날짜 입력">
                         <style>
                             input[type=text] {
                                 border : 0px;
                                 background-color: white;
                             }
                         </style>
-                </td>
-                <td>
-                    <input type="text" placeholder="날짜 입력">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="게스트 추가">
                         <style>
                             input[type=text] {
                                 border : 0px;
                                 background-color: white;
                             }
                         </style>
-                </td>
-                <td>
-                    <input type="text" placeholder="날짜 입력">
-                    <style>
-                        input[type=text] {
-                            border : 0px;
-                            background-color: white;
-                        }
-                    </style>
-                </td>
-                <td>
-                    <input type="text" placeholder="게스트 추가">
-                    <style>
-                        input[type=text] {
-                            border : 0px;
-                            background-color: white;
-                        }
-                    </style>
-                </td>
-            </tr>
-            
-        </table>
-    </div>
+                    </td>
+                </tr>
+                
+            </table>
+        </div>
 
-    <div class = "header-picture"><img class="header-picture" src="static/lion2.jpg" width=1300px alt="cutelion">
-    </div>
-    <br>
-    <div class = "header-message">호스트 분들이 있기에 가능합니다.
-    </div>
+
+        <div class = "header-picture"><img class="header-picture" src="static/lion2.jpg" width=1300px alt="cutelion">
+        </div>
+        <br>
+        <div class = "header-message">호스트 분들이 있기에 가능합니다.
+        </div>
+    </header>
 
     <main>
         <section class="main-explore">
@@ -252,6 +257,147 @@
 
     </main>
 
-</body>
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <section class="footer-content-section">
+                    <h4 class="footer-content-section-title">소개</h4>
+                    <ul class="footer-content-section-ul">
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/d/howairbnbworks">에어비앤비 이용 방법</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/press/news">뉴스룸</a>
+                        </li> 
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://investors.airbnb.com/home/default.aspx">투자자 정보</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/plus">에어비앤비 플러스</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/luxury">에어비앤비 Luxe</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.hoteltonight.com/?utm_source_name=Airbnb&utm_campaign_name=Dr_Us_Desktop_Airbnb_Footer">호텔투나잇</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/work?s=footer">에어비앤비 비즈니스 프로그램</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/d/video-stories-hub">호스트 분들이 있기에 가능합니다</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://careers.airbnb.com/">채용정보</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://news.airbnb.com/what-makes-airbnb-airbnb/?_ga=2.88903259.1728783640.1617635705-1951706251.1614631323">창립자 편지</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer-content-section">
+                    <h4 class="footer-content-section-title">커뮤니티</h4>
+                    <ul class="footer-content-section-ul">
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/diversity">다양성 및 소속감</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/d/accessibility">접근성</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/associates?from=footer">에어비앤비 어소시에이트</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/d/covid19relief">구호 인력을 위한 숙소</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/invite?r=6">게스트 추천</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://ko.airbnb.org/?_ga=2.9553781.1747376347.1617608211-1163540153.1617512473&_set_bev_on_new_domain=1617664388_NGYzYmYyNGIwYTdj">Airbnb.org</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer-content-section">
+                    <h4 class="footer-content-section-title">호스팅하기</h4>
+                    <ul class="footer-content-section-ul">
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/host/homes?from_footer=1">숙소 호스팅</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/d/onlinehost">온라인 체험 호스팅하기</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/host/experiences">체험 호스팅하기</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/help/article/1387">책임감 있는 호스팅</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/resources/hosting-homes">자료 센터</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://community.withairbnb.com/t5/Community-Center-KR/ct-p/Community-Center-Korean">커뮤니티 센터</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer-content-section">
+                    <h4 class="footer-content-section-title">에어비앤비 지원</h4>
+                    <ul class="footer-content-section-ul">
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/d/covidsafety">에어비앤비의 코로나19 대응 방안</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/help/home">도움말 센터</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19">예약 취소 옵션</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/neighbors">에어비앤비 이웃 민원 지원</a>
+                        </li>
+                        <li class="footer-content-section-ul-li">
+                            <a href="https://www.airbnb.co.kr/trust">신뢰와 안전</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
 
+            <div class="footer-copyright">
+                <section class="footer-copyright-links">
+                    <div class="footer-copyright-links-lan">
+                        <a href="https://www.airbnb.co.kr/account-settings/language"><i class="fas fa-globe fa-lg"></i><span>한국어 (KR)</span></a>
+                        <a href="https://www.airbnb.co.kr/account-settings/currency"><i class="fas fa-won-sign"></i><span>KRW</span></a>
+                    </div>   
+                    <div class="footer-copyright-links-sns">
+                        <a href="https://www.facebook.com/AirbnbKorea" class="footer-copyright-links-sns-icon"><i class="fab fa-facebook-square footer-icon"></i></a>
+                        <a href="https://twitter.com/airbnb" class="footer-copyright-links-sns-icon"><i class="fab fa-twitter footer-icon"></i></a>
+                        <a href="https://www.instagram.com/airbnb/" class="footer-copyright-links-sns-icon"><i class="fab fa-instagram footer-icon"></i></a>
+                        <a href="https://blog.naver.com/airbnbkr">
+                            <img class="footer-copyright-links-sns-icon" src="static/blog.jpeg" />
+                        </a>
+                        <a href="https://post.naver.com/airbnb_kr">
+                            <img class="footer-copyright-links-sns-icon" src="static/post.jpeg" />
+                        </a>
+                    </div>
+                </section>
+                <section class="footer-copyright-copyright">
+                    <div class="footer-copyright-copyright-title">© 2021 Airbnb, Inc. All rights reserved</div>
+                    <div class="footer-copyright-copyright-info">
+                        <a href="https://www.airbnb.co.kr/help/article/2855/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EC%B2%98%EB%A6%AC%EB%B0%A9%EC%B9%A8" class="footer-copyright-copyright-info-chr">개인정보 처리방침</a>
+                        <span class="footer-copyright-copyright-info-dot">∙</span>
+                        <a href="https://www.airbnb.co.kr/help/article/2908/%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80" class="footer-copyright-copyright-info-chr">이용약관</a>
+                        <span class="footer-copyright-copyright-info-dot">∙</span>
+                        <a href="https://www.airbnb.co.kr/sitemaps/v2" class="footer-copyright-copyright-info-chr">사이트맵</a>
+                        <span class="footer-copyright-copyright-info-dot">∙</span>
+                        <a href="https://www.airbnb.co.kr/home/updated_cancellation_policies?korean_strict_policy=true#strict" class="footer-copyright-copyright-info-chr">한국의 변경된 환불 정책</a>
+                        <span class="footer-copyright-copyright-info-dot">∙</span>
+                        <a href="https://www.airbnb.co.kr/about/company-details" class="footer-copyright-copyright-info-chr">회사 세부정보</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
